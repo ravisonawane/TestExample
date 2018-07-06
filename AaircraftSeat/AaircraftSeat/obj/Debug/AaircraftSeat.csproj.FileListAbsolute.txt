@@ -1,0 +1,7 @@
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\bin\Debug\AaircraftSeat.exe.config
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\bin\Debug\AaircraftSeat.exe
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\bin\Debug\AaircraftSeat.pdb
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\obj\Debug\AaircraftSeat.csprojResolveAssemblyReference.cache
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\obj\Debug\AaircraftSeat.csproj.CoreCompileInputs.cache
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\obj\Debug\AaircraftSeat.exe
+E:\C#\Replicon\AaircraftSeat\AaircraftSeat\obj\Debug\AaircraftSeat.pdb
