@@ -63,35 +63,35 @@ namespace SimpleCalculator.Tests.Unit
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NotSupportedException))]
         public void ConfirmAddNamedOperationIsNotSupported()
         {
             string op = "add";
             string formattedOp = InputFormatter.FormatOperator(op);
+            Assert.AreEqual("+", formattedOp);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NotSupportedException))]
         public void ConfirmSubtractNamedOperationIsNotSupported()
         {
             string op = "subtract";
             string formattedOp = InputFormatter.FormatOperator(op);
+            Assert.AreEqual("-", formattedOp);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NotSupportedException))]
         public void ConfirmMultiplyNamedOperationIsNotSupported()
         {
             string op = "multiply";
             string formattedOp = InputFormatter.FormatOperator(op);
+            Assert.AreEqual("*", formattedOp);
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NotSupportedException))]
         public void ConfirmDivideNamedOperationIsNotSupported()
         {
             string op = "divide";
             string formattedOp = InputFormatter.FormatOperator(op);
+            Assert.AreEqual("/", formattedOp);
         }
 
 

@@ -44,42 +44,42 @@ namespace SimpleCalculator.Tests.Unit
         [TestMethod]
         public void AddTwoNumbersWithAdd()
         {
-            double result = Calculator.Calculate(12, 3, "add");
+            double result = Calculator.Calculate(12, 3, InputFormatter.FormatOperator("add"));
             Assert.AreEqual(15, result);
         }
 
         [TestMethod]
         public void SubtractTwoNumbersWithSecondLargest()
         {
-            double result = Calculator.Calculate(5, 8, "subtract");
+            double result = Calculator.Calculate(5, 8, InputFormatter.FormatOperator("subtract"));
             Assert.AreEqual(3, result);
         }
 
         [TestMethod]
         public void SubtractTwoNumbersFirstLargest()
         {
-            double result = Calculator.Calculate(8, 2, "subtract");
+            double result = Calculator.Calculate(8, 2, InputFormatter.FormatOperator("subtract"));
             Assert.AreEqual(6, result);
         }
 
         [TestMethod]
         public void MultiplyTwoNumbersWithMultiply()
         {
-            double result = Calculator.Calculate(4, 2, "multiply");
+            double result = Calculator.Calculate(4, 2, InputFormatter.FormatOperator("multiply"));
             Assert.AreEqual(8, result);
         }
 
         [TestMethod]
         public void DivideTwoNumbersWithFirstLargest()
         {
-            double result = Calculator.Calculate(4, 2, "divide");
+            double result = Calculator.Calculate(4, 2, InputFormatter.FormatOperator("divide"));
             Assert.AreEqual(2, result);
         }
 
         [TestMethod]
         public void DivideTwoNumbersWithSecondLargest()
         {
-            double result = Calculator.Calculate(2, 4, "divide");
+            double result = Calculator.Calculate(2, 4, InputFormatter.FormatOperator("divide"));
             Assert.AreEqual(2, result);
         }
     }
